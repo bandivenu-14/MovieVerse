@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieVerse</title>
-    <link rel="stylesheet" href="movie.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>MovieVerse</h1>
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="search Movies">
+            <input type="text" id="searchInput" placeholder="Search Movies">
             <button id="searchBtn">Search</button>
         </div>
     </header>
     <main>
-        <div id="moviesContainer">
+    <div id="loader" class="loader">
+         <div class="spinner"></div>
+    </div>
+     <div id="moviesContainer">
 
-        </div>
+     </div>
     </main>
-    <main>
-        <script src="movie.js"></script>
-    </main>
+<script src="script.js"></script>    
 </body>
 </html>
